@@ -71,8 +71,8 @@ $(document).ready(function () {
           judge = "不合格";
           return judge;
         }
-      return judge;
-      }
+       }
+       return judge;
       };
     // 最終的なジャッジのロジックを作ります。
     function judgement() {
@@ -104,5 +104,5 @@ $(document).ready(function () {
 
     $('#declaration').text(judgement);
      })
-    });
+     });
   // ここに書かれているJavaScriptの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構いません。合格要件をすべて満たしていれば合格となります。
